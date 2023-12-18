@@ -4,7 +4,7 @@
   "description": "greenapitest",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,10 @@
   "homepage": "https://github.com/Algod25/greenAPItest#readme",
   "dependencies": {
     "amqplib": "^0.10.3",
-    "express": "^4.18.2"
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "winston": "^3.11.0"
   },
-  "devDependencies": {
-    "nodemon": "^3.0.2"
-  }
+  "type": "module"
 }
